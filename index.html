@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <h4 id="heading">
+     Thank You For Taking the Survey
+    </h4>
+    <form action="">
+        <label for="Name">
+            Name
+            <input type="text" name="name">
+        </label>
+
+        
+        <label for="Email">
+            Email
+            <input type="email" name="email">
+        </label>
+         
+        
+        <label for="Age">
+            Age
+            <input type="text" name="age">
+        </label><br/>
+         
+    <h4 id="heading">Will You recommend This</h4>
+    <input type="radio" value=" Yes ">
+    <label>Yes</label><br/>
+    <input type="radio" value="No">
+    <label>No</label><br/>
+    <h4 id="heading">What would you like to see improved (check all that apply)</h4>
+
+    <input type="checkbox" name="front-end project" value="front-end projects">
+    <label> Front-end project</label><br/>
+    <input type="checkbox" name="Back-end project" value="Back-end projects">
+    <label> Back-end project</label><br/>
+    <input type="checkbox" name="Data Visualization project" value="Data Visualization projects">
+    <label> Data Visualization</label><br/>
+    <input type="checkbox" name="Open Source Community" value="Open Source Community">
+    <label> Open Source Community</label><br/>
+    <input type="checkbox" name="Gitter help room" value="Gitter help room">
+    <label> Gitter help room</label><br/>
+    <input type="checkbox"  value="Vidoes">
+    <label> Videos</label><br/>
+
+    <input type="checkbox" name="City meetups" value="city meetups">
+    <label> Front-end project</label><br/>
+
+    <input type="checkbox" name="forum" value="front-end projects">
+    <label> Forum</label><br/>
+    <input type="checkbox" name="Additional Courses" value="Additional courses">
+    <label> Additional courses</label><br/>
+    </form>
+
+    <h4>Any comments or suggestions</h4>
+    <textarea rows="10" cols="30"></textarea><br/>
+
+    <input type="button" value="Submit" id="submit">
+</body>
+</html>

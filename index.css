@@ -1,0 +1,12 @@
+
+body{
+    background-color: bisque;
+}
+.heading{
+    font-style: oblique;
+    font-size: 50px;
+}
+.submit{
+    background-color: rgb(133, 133, 214);
+    
+}
