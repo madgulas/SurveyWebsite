@@ -20,6 +20,7 @@ html, body{
     border: 20px;
     text-align: left;
     position: relative;
+    justify-content: space-evently;
 
 }
 h2{
