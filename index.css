@@ -7,6 +7,20 @@ html, body{
     height: 100%;
     background-color: white;
 }
+
+#box{
+    margin:30px 30px;
+    background-color: red;
+    border-color: white;
+    border: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+
+}
+    
+}
 .heading{
     font-style: oblique;
     font-size: 50px;
