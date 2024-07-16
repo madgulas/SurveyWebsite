@@ -15,8 +15,7 @@ html, body{
     margin:30px 30px;
     padding-left: 30px;
     text-align: left;
-    background-color: rgb(223, 136, 136);
-    border-color: white;
+    background-color: rgb(242, 174, 92);
     border: 20px;
     text-align: left;
     position: relative;
@@ -31,7 +30,14 @@ h2{
 h4{
     font-weight: 500px;
     font-size: large;
-    color:black
+    color:black;
+}
+#submit{
+    
+    background-color: beige;
+    border-radius: 10%;
+    font-size: large;
+    color: black;
 }
     
 }
